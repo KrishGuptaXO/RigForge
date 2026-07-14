@@ -1,5 +1,6 @@
 import {Cpu, SavePlus, PackageOpen, Cog, House, PanelRight} from 'lucide-react';
 import { Sidebar as ProSidebar, Menu, MenuItem } from 'react-pro-sidebar';
+import { NavLink } from 'react-router-dom';
 
 export default function AppSidebar ({collapsed, toggleSidebar}) {
     return (
@@ -18,23 +19,23 @@ export default function AppSidebar ({collapsed, toggleSidebar}) {
                     {collapsed ? "Expand" : "Collapse"}
                 </MenuItem>
 
-                <MenuItem icon = {<House size={20} />} >
+                <MenuItem icon = {<House size={20} />} component={<NavLink to="/" />} >
                     Home
                 </MenuItem>
 
-                <MenuItem icon = {<Cpu size={20} />} >
+                <MenuItem icon = {<Cpu size={20} />} component={<NavLink to="/build" />} >
                     Build PC
                 </MenuItem>
 
-                <MenuItem icon = {<SavePlus size={20} />} >
+                <MenuItem icon = {<SavePlus size={20} />} component={<NavLink to="/saved-builds" />} >
                     Saved Builds
                 </MenuItem>
 
-                <MenuItem icon = {<PackageOpen size={20} />} >
+                <MenuItem icon = {<PackageOpen size={20} />} component={<NavLink to="/orders" />} >
                     Orders
                 </MenuItem>
 
-                <MenuItem icon = {<Cog size={20} />} >
+                <MenuItem icon = {<Cog size={20} />} component={<NavLink to="/settings" />} >
                     Settings
                 </MenuItem>
                 
