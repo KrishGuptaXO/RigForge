@@ -16,7 +16,7 @@ export default function AppSidebar ({collapsed, toggleSidebar}) {
         >
             <Menu>
                 <MenuItem icon={<PanelRight />} onClick={toggleSidebar} >
-                    {collapsed ? "Expand" : "Collapse"}
+                    {collapsed ? "" : "☰"}
                 </MenuItem>
 
                 <MenuItem icon = {<House size={20} />} component={<NavLink to="/" />} >

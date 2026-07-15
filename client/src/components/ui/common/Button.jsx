@@ -20,7 +20,7 @@ export default function Button( {
     };
 
     return (
-        <button type={type} onClick={onClick} className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 cursor-pointer hover: -translate-y-0.5 active:scale-95 ${ButtonVariants[variant]} ${className}`}>
+        <button type={type} onClick={onClick} className={`px-4 py-2 mt-2 rounded-lg font-medium transition-all duration-200 cursor-pointer hover: -translate-y-0.5 active:scale-95 ${ButtonVariants[variant]} ${className}`}>
             {children}
         </button>
     );
