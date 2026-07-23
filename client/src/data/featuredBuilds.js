@@ -2,6 +2,8 @@ import NovaX from "../assets/images/Nova_X.webp"
 import PhantomV4 from "../assets/images/Phantom.avif"
 import Echo from "../assets/images/Echo.avif"
 import Shark from "../assets/images/SharkX.webp"
+import Lian from "../assets/images/Lian_Li.webp"
+import Star from "../assets/images/StarScream.webp"
 const featuredBuilds = [
     {
         id: 1,
@@ -9,7 +11,7 @@ const featuredBuilds = [
         cpu: "AMD Ryzen 7 9850X3D",
         gpu: "NVIDIA RTX 5070TI",
         ram: "Kingston Fury 32GB DDR5 6000 MT/s",
-        price: "₹1,59,999",
+        price: "₹3,59,999",
         image: NovaX,
     },
     {
@@ -38,6 +40,24 @@ const featuredBuilds = [
         ram: "64GB 2 x 32GB DDR5 6000 MT/s",
         price: "₹5,33,439",
         image: Shark,
+    },
+    {
+        id: 5,
+        name: "Frost Byte",
+        cpu: "Intel Core i9 9900K",
+        gpu: "MSI RTX 2080 Super",
+        ram: "G-Skill Trident Z 32GB DDR4 3600 MT/s",
+        price: "₹3,52,898",
+        image: Lian,
+    },
+    {
+        id: 6,
+        name: "StarScream",
+        cpu: "Intel Xeon X5675",
+        gpu: "NVIDIA GTX Titan",
+        ram: "Corsair 12GB DDR3 1800 MT/s",
+        price: "₹1,54,899",
+        image: Star,
     },
 ];
 
