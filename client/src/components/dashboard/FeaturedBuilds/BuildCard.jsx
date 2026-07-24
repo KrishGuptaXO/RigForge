@@ -4,7 +4,7 @@ import Card from "../../common/Card";
 export default function BuildCard({build}) {
     const { name, cpu, gpu, ram, price, image } = build;
     return (
-        <Card className="max-w-sm">
+        <Card className="w-full">
             
             {/* Image Container */}
             <div className="relative group h-64 overflow-hidden rounded-xl">

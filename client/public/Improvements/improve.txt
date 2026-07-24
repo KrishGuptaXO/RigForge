@@ -1,5 +1,5 @@
 - Categories -> Server/ Enterprise level builds (for a whole Enterprise altogether assembled).
 - Splash screen startup with logo
 - Add hidden tags to PC cards for admin role. For user role they serve as filter tags to show them builds upon choosing.
-- Make the PC cards of Featured Builds an infinite carousel with admin-controlled builds and rest can be seen on /build page.
 - Add the nebula animation as bg for the entire website. (Sources: Namespace BPIT website, https://pixabay.com/videos/nebula-gas-galaxy-space-25047/)
+- Fix the LONG scrollbar that got added for the Infinite Carousel.

@@ -1,0 +1,18 @@
+.featured-builds-track {
+    width: max-content;
+    animation: marquee 35s linear infinite;
+}
+
+.featured-builds-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    
+    to {
+        transform: translateX(-50%);
+    }
+}
